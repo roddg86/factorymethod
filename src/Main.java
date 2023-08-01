@@ -1,4 +1,7 @@
-package generative.factorymethod;
+import controller.CarWorkShop;
+import controller.TruckWorkShop;
+import model.impl.IProduction;
+import model.impl.IWorkShop;
 
 public class Main {
     public static void main(String[] args) {

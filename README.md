@@ -27,14 +27,14 @@ No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        Car.java
-        CarWorkShop.java
+        model.Car.java
+        controller.CarWorkShop.java
 factory method
-        IProduction.java
-        IWorkShop.java
+        model.impl.IProduction.java
+        model.impl.IWorkShop.java
         Main.java
-        Truck.java
-        TruckWorkShop.java
+        model.Truck.java
+        controller.TruckWorkShop.java
 
 nothing added to commit but untracked files present (use "git add" to track)
 PS C:\Users\Dmitry\Desktop\seminar1\factorymethod> git remote -v  
@@ -46,13 +46,13 @@ PS C:\Users\Dmitry\Desktop\seminar1\factorymethod> git add .
 PS C:\Users\Dmitry\Desktop\seminar1\factorymethod> git commit -a  
 [master (root-commit) 494a690] factory method
  7 files changed, 93 insertions(+)
- create mode 100644 Car.java
- create mode 100644 CarWorkShop.java
- create mode 100644 IProduction.java
- create mode 100644 IWorkShop.java
+ create mode 100644 model.Car.java
+ create mode 100644 controller.CarWorkShop.java
+ create mode 100644 model.impl.IProduction.java
+ create mode 100644 model.impl.IWorkShop.java
  create mode 100644 Main.java
- create mode 100644 Truck.java
- create mode 100644 TruckWorkShop.java
+ create mode 100644 model.Truck.java
+ create mode 100644 controller.TruckWorkShop.java
 PS C:\Users\Dmitry\Desktop\seminar1\factorymethod> git branch -M main  
 PS C:\Users\Dmitry\Desktop\seminar1\factorymethod> git status
 On branch main
@@ -109,3 +109,6 @@ Date:   Tue Jul 25 12:53:36 2023 +0900
 ### Скрины  
 
 ![screen.png](img%2Fscreen.png)
+
+### Работа с изменениями
+

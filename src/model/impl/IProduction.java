@@ -1,4 +1,4 @@
-package generative.factorymethod;
+package model.impl;
 
 /**
  * Данный интерфейс является абстрактным

@@ -1,4 +1,6 @@
-package generative.factorymethod;
+package model.impl;
+
+import model.impl.IProduction;
 
 /**
  * Общий интерфейс для создания объектов в супер классе.

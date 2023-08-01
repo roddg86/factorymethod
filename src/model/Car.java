@@ -1,4 +1,6 @@
-package generative.factorymethod;
+package model;
+
+import model.impl.IProduction;
 
 /**
  * Конкретный класс легкового автомобиля
