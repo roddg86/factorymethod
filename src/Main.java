@@ -18,7 +18,7 @@ public class Main {
         IProduction truck = creator.create();
 
         // Вызовем метод release выполняющий выпуск автомобилей
-        car.release();
+        //car.release();
         truck.release();
     }
 }
