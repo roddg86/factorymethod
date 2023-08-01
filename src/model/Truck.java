@@ -8,6 +8,6 @@ import model.impl.IProduction;
 public class Truck implements IProduction {
     @Override
     public void release() {
-        System.out.println("Выпущен новый грузовой автомобиль");
+        System.out.println("Выпущен новый легковой и грузовой автомобиль");
     }
 }
